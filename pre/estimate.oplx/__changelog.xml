@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <resource-change-set user="Eivind Lindbråten" date="2017-01-20T01:06:46.078Z" timestamp="2017-01-20T01:06:46.078Z">
+    <change idref="r1" attribute="costPerHour" type="real" from="0" to="500" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="Resource 1" to="Eivind Lindbråten" resolved="yes"/>
+    <change idref="r1" attribute="emailAddress" type="string" to="eivind.lindbraten@gmail.com" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Eivind Lindbråten" date="2017-01-20T01:07:47.388Z" timestamp="2017-01-20T01:07:47.388Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";32400,43200,45000,57600;32400,43200,45000,57600;32400,43200,45000,57600;32400,43200,45000,57600;32400,43200,45000,57600;" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Eivind Lindbråten" date="2017-01-20T01:06:08.283Z" timestamp="2017-01-20T01:06:08.283Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2017-01-20T07:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Eivind Lindbråten" date="2017-01-20T01:07:47.388Z" timestamp="2017-01-20T01:07:47.388Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2017-01-20T07:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

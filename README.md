@@ -33,6 +33,22 @@ Add description here.
 
 ## Best Practices
 
+### Software & Services
+
+Online services used:
+- Notes etc. in Evernote
+- Project Management in Trello
+- Time Tracking in Timely
+- Slack for chat/status/information center
+- Github for version control
+- Zeplin for developer design deliveries
+- Invision for prototypes and client feedback
+
+Tools used:
+- Sketch
+- Atom
+- Xcode
+
 ### Design
 
 #### Systematical organization
