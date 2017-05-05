@@ -1,9 +1,8 @@
 # Project Name
 
-<!-- TODO: Adopt Sketch Template to: http://blog.invisionapp.com/start-sketch-design/ -->
-<!-- TODO: Read and create README template for code projects: https://github.com/matiassingers/awesome-readme -->
-
 Add description here.
+
+<!-- TODO: https://github.com/mariuszostrowski/foldersstructure/blob/master/README.md -->
 
 ## Structure
 ```
@@ -18,8 +17,12 @@ Add description here.
 │   └── wp
 └── design
     ├── exports
-    └── wireframe.sketch    
+    └── wireframe.sketch
 ```
+
+### Folders and how to use them
+- **review** — export files nececery for design review, and share that folder with client. Name the folder with date and description. This folder can include design exports which can be commented on, and documents and pdf's with further description. Share link via Dropbox or iCloud. Will have to have a comment feature. Inspired by: https://www.youtube.com/watch?v=uZ9om-iogQE
+- **assets/references** — For anything that might inspire you when designing. like type treatments, ux patterns you'd want to use in a app
 
 ## How to Use
 
@@ -30,46 +33,3 @@ Add description here.
   - template-wp
   - template-ios
 4. Set project configurations in `project.md`.
-
-## Best Practices
-
-### Software & Services
-
-Online services used:
-- Notes etc. in Evernote
-- Project Management in Trello
-- Time Tracking in Timely
-- Slack for chat/status/information center
-- Github for version control
-- Zeplin for developer design deliveries
-- Invision for prototypes and client feedback
-
-Tools used:
-- Sketch
-- Atom
-- Xcode
-
-### Design
-
-#### Systematical organization
-
-Use Atomic Design Principals. http://bradfrost.com/blog/post/atomic-web-design/#atoms
-
-#### Naming conventions
-
-- Use prefixes. Examples: img_header, ic_header, bg_header
-- Names should be in english by convention. This may sound weird if you're a native english speaker, but if you are used to communicate in another language, try to keep your elements' names in english or at least leave out accents and symbols that only make sense in your language.
-- Talk to the developers that work with you, show them the way you organize your files and commit to it for the whole project.
-- Use this-naming-convention.
-
-#### Export directly into a folder
-This is simple and builds on tip No. 2. If you place a prefix: “<folder>/” before the name of your layer then it will export into that folder. For instance “alex/img_mockup@2x.png” would export the file “img_mockup@2x.png” into a folder named “alex”.
-
-#### Quickly conseptualize
-Use Paparazzi app.
-
-### Code
-
-#### iOS
-
-#### Web

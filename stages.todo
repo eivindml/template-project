@@ -1,0 +1,60 @@
+Pre:
+  - Send proposal & get signature/verification
+
+  Deliverables:
+    - Proposal
+      - Project & problem description
+      - Similar/relevant work or unique URL to similar/relvant work
+      - Worflow/communcation: How we and the client can collaborate or weblink
+      - Price estimate
+      - Plan/schedule/timeline/milestones
+      - Clear cut terms and conditions
+
+Init:
+  - [Send out instructions for collaboration](snippets/collaboration.snippets)
+  - [Send out request for ](snippets/request-for-materials.snippets)
+    - Files in assets folder
+    - Logins in 1Password
+    - Database logins in MySQL
+    - FTP/SSH in Transmit
+
+During:
+
+  Research:
+    - Create a reserch document
+
+    Deliverables:
+      - Research document (if wanted by the client)
+
+  Design:
+    - Create wireframe on paper
+    - Create wireframe in Sketch (if client needs this)
+    - Create design mockup (two revisions)
+    - Sync and set up prototype in Invision for client feedback
+    - Export design to Zeplin for development
+
+    Deliverables:
+      - Wireframe/mockups/prototype (rough drafts/concepts): Invision/Sketch/PDF/Dropbox
+      - Userflow diagram (show overall flow/overview/architecture): Invision/Sketch/PDF
+
+  Development:
+    - Create Github repository
+    - Setup local/staging/production server & deployment
+
+    Deliverables:
+      - Deploy project to production server
+      - Logins & passwords
+      - Compressed project folder
+
+Post:
+  - Summarize project time tracking (add to spreadsheet estimated/actual time)
+  - Invoice customer
+  - If relevant, add project to portfolio
+  - Publish to twitter/github/instagram/dribbble
+  - Complete Retrospective in `post/retrospective.md`
+  - Updated template-project repo based on retrospective
+
+  Deliverables:
+    - Time sheet & invoice
+    - Client/project feedback form
+      - Either text format where they can reply, or custom web form on our website.

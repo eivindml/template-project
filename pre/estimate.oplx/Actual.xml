@@ -76,19 +76,76 @@
     <child-resource idref="r1"/>
   </resource>
   <resource id="r1">
-    <name>Eivind Lindbråten</name>
+    <name>Eivind Mikael Lindbråten</name>
     <type>Staff</type>
     <cost-per-hour>500</cost-per-hour>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="41400"/>
+        <time-span start-time="45000" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="41400"/>
+        <time-span start-time="45000" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="41400"/>
+        <time-span start-time="45000" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="41400"/>
+        <time-span start-time="45000" end-time="57600"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday"/>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
     <email-address>eivind.lindbraten@gmail.com</email-address>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
     <child-task idref="t1"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
   </task>
   <task id="t1">
-    <title>Task 1</title>
+    <title>Research</title>
+    <leveled-start>2001-01-01T07:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t3">
+    <title>Design</title>
+    <leveled-start>2001-01-02T08:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t1"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t4">
+    <title>Development</title>
+    <leveled-start>2001-01-03T09:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t3"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t5">
+    <title>Testing &amp; QA</title>
+    <leveled-start>2001-01-04T10:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t4"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t6">
+    <title>Deployment</title>
+    <leveled-start>2001-01-08T12:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t5"/>
+    <assignment idref="r1"/>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
