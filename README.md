@@ -1,6 +1,6 @@
-# Project Name
+# Project Template
 
-Add description here.
+Template for new client projects. For consistency and reduced repeated work. Always under improvement.
 
 <!-- TODO: https://github.com/mariuszostrowski/foldersstructure/blob/master/README.md -->
 
@@ -21,10 +21,16 @@ Add description here.
 ```
 
 ### Folders and how to use them
-- **review** — export files nececery for design review, and share that folder with client. Name the folder with date and description. This folder can include design exports which can be commented on, and documents and pdf's with further description. Share link via Dropbox or iCloud. Will have to have a comment feature. Inspired by: https://www.youtube.com/watch?v=uZ9om-iogQE
+- **review** — export files nececery for design review, and share that folder with client. Name the folder with date and description. This folder can include design exports which can be commented on, and documents and pdf's with further description. Share link via Dropbox or iCloud. Will have to have a comment feature. Inspired by [Matt D. Smith](https://www.youtube.com/watch?v=uZ9om-iogQE).
 - **assets/references** — For anything that might inspire you when designing. like type treatments, ux patterns you'd want to use in a app
 
 ## How to Use
+
+### Prerequisites
+
+To use the proposal template you need to install the [`mist-proposal` LaTeX class](https://github.com/eivindml/mist-proposal).
+
+### Installing
 
 1. Clone this repo and delete `.git` folder.
 2. Delete folders and files not relevant for this project.
