@@ -1,0 +1,12 @@
+[submodule "project/web-wp"]
+	path = project/web-wp
+	url = https://github.com/eivindml/template-wp
+[submodule "project/web"]
+	path = project/web
+	url = https://github.com/eivindml/template-static
+[submodule "project/ios"]
+	path = project/ios
+	url = https://github.com/eivindml/template-ios
+[submodule "project/macos"]
+	path = project/macos
+	url = https://github.com/eivindml/template-macos
